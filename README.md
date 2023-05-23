@@ -122,29 +122,56 @@ I used three classification models to predict churn  and a more tuned model to i
 
 * Logistic regression which had a:
     -Train Accuracy: 65%
+    
     -Test Accuracy:  63%
+    
     -Train Recall:   89%
+    
     -Test Recall:    80%
     
 * Decision Tree which had a:
     -Train Accuracy: 95%
+    
     -Test Accuracy:  93%
+    
     -Train Recall:   75%
+    
     -Test Recall:    72%
     
 * Random Forest with a:
+    
     -Train Accuracy: 89%
+    
     -Test Accuracy:  88%
+    
     -Train Recall:   23%
+    
     -Test Recall:    12%
     
 * Tuned Random Forest wth a:
+    
     -Train Accuracy: 94%
+    
     -Test Accuracy:  95%
+    
     -Train Recall:   78%
+    
     -Test Recall:    72%
+    
 The best paramters for random forest are criterion 'entropy', Maximum depth of 6,
-minimum sample leaf of 3 and a minimum sample split of 10
+minimum sample leaf of 3 and a minimum sample split of 10.
+
+# Findings
+- A customer who had more customer service call are most likely to churn. This implies the costomers who did not have a customer service call are most likely satisfied from the services offered by the company.
+
+- A higher percentage of the customers who churned had an international plan. 
+
+- High total day minutes spent potentially leads to high churn rate, this implies that a customer was charged based on the total number of minutes spent.
+
+- Total evening charge and night minutes also increased the churn rate.
+
+
+
 # Conclusion
 
 The final model that I used to predict customer churn was Random Forest with the tuned hyperparameters (criterion 'entropy', Maximum depth of 6, minimum sample leaf of 3 and a minimum sample split of 10) as it has the least number of false negatives  with a better recall score.
@@ -159,3 +186,22 @@ The most most important features that lead to customer churn were:
 * Internatinal plan.
 
 * Total evening charge.
+
+# Recommendations.
+
+1. Improve the quality of customer service provided
+2. Review the international plan.
+3. Review on the prices how they charge customers based on the total number of minutes.
+
+# Limitations.
+
+* The dataset used has limited number of features while there could be other factors that contribute to customer churn.
+* The classification models used in this analysis make certain assumptions, such as independence, and normality. Violations of these assumptions could impact the accuracy and reliability of the results.
+
+# Next steps.
+
+1. New features can be generated from the existing data to provide more insights. 
+
+2. Gather additional data on customer churn that could be included in the model to improve the recall.
+
+3. Review the models to reflect the current factors that leads to customer churn.
