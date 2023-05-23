@@ -2,6 +2,9 @@
 Reducing Customer Churn using Predictive Modeling
 
 # Overview 
+![1635819611343.jpeg](https://github.com/kamaupaul/Churn_in_Telecom_Project/blob/main/data/1635819611343.jpeg
+"Optional title")
+
 SyriaTel Mobile Telcom is a provider of mobile telecommunication and data services based in Damascus, Syria. The company offers services including calls, news, message, GSM and internet services, thereby making the life of customers easier with reasonable prices.
 
 Telecom industry is a very competitive market, these industries like SyriaTel expirience an average of 15%-25% annual churn rate. 
