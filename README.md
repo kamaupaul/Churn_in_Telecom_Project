@@ -124,7 +124,7 @@ The models that I used are:
 I used three classification models to predict churn  and a more tuned model to improve the evaluation metrics i.e:
 
 * Logistic regression which had a:
-    -Train Accuracy: 65%
+   
     
     -Test Accuracy:  63%
     
@@ -133,31 +133,31 @@ I used three classification models to predict churn  and a more tuned model to i
     -Test Recall:    80%
     
 * Decision Tree which had a:
-    -Train Accuracy: 95%
+    
     
     -Test Accuracy:  93%
     
-    -Train Recall:   75%
+    
     
     -Test Recall:    72%
     
 * Random Forest with a:
     
-    -Train Accuracy: 89%
+    
     
     -Test Accuracy:  88%
     
-    -Train Recall:   23%
+    
     
     -Test Recall:    12%
     
 * Tuned Random Forest wth a:
     
-    -Train Accuracy: 94%
+    
     
     -Test Accuracy:  95%
     
-    -Train Recall:   78%
+    
     
     -Test Recall:    72%
     
